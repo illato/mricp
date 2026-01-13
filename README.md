@@ -160,7 +160,6 @@ The pipeline follows a sequential workflow. Execute notebooks/scripts in the ord
 | `all_unseen_3T_variant_scans_preds_for_baseline_model.pkl/csv` | `9-2-0__run_conformal_prediction_experiments.ipynb` | 3T predictions |
 | `all_unseen_15T_variant_scans_preds_for_baseline_model.pkl/csv` | `9-2-0__run_conformal_prediction_experiments.ipynb` | 1.5T predictions |
 | `x4_cal-test_combos__100x_cp__per_variant_test_data__cp_instance_col.pkl` | Multiple analysis notebooks | Main CP results |
-| `train.csv`, `val.csv` | Training notebook | Train/validation splits |
 
 ---
 
@@ -178,7 +177,6 @@ The pipeline follows a sequential workflow. Execute notebooks/scripts in the ord
 
 ## Notes
 
-- **Large files:** The `.keras` model file may be large; consider using Git LFS if needed
 - **Environment setup:** Detailed conda environment specifications are in `0__setup.ipynb`
 - **Data paths:** Update paths in scripts/notebooks to match your local data directory structure
 - **MATLAB:** Ensure MATLAB is properly configured with Python engine before running augmentation scripts

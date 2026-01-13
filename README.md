@@ -180,6 +180,7 @@ The pipeline follows a sequential workflow. Execute notebooks/scripts in the ord
 - **Environment setup:** Detailed conda environment specifications are in `0__setup.ipynb`
 - **Data paths:** Update paths in scripts/notebooks to match your local data directory structure
 - **MATLAB:** Ensure MATLAB is properly configured with Python engine before running augmentation scripts
+- **Alternate Execution** Start at `9-2-0__run_conformal_prediction_experiments.ipynb` if reproducing conformal prediction analyses is your only concern.
 
 ---
 

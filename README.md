@@ -70,16 +70,16 @@ The pipeline follows a sequential workflow. Execute notebooks/scripts in the ord
 1. **`0__setup.ipynb`** - Create conda/venv environments
 2. **`1__download_template_for_registration__TemplateFlow.ipynb`** - Download MRI template
 3. **`2__dataset_information.ipynb`** - Extract dataset metadata
-4. **`3__Muslim_et_al_T2_orientation-pixdim_fix.ipynb`** - Fix image orientations
+4. **`3__Muslim_et_al_T2_orientation-pixdim_fix.ipynb`** + **`3-1__reorient_and_apply_identity.py`** - Fix image orientations
 
 ### Phase 2: Registration & Preprocessing (Steps 5-8)
-5. **`4__rigid_registration_MI.py`** or **`4__rigid_registration_MI.ipynb`** - Rigid registration to template space
-6. **`5__transform_lesion_masks_to_template_space.py`** or **`5__transform_lesion_masks_to_template_space.ipynb`** - Transform lesion masks
+5. **`4__rigid_registration_MI.ipynb`** + **`4__rigid_registration_MI.py`** - Rigid registration to template space
+6. **`5__transform_lesion_masks_to_template_space.ipynb`** + **`5__transform_lesion_masks_to_template_space.py`** - Transform lesion masks
 7. **`6__Muslim_et_al_post_registration_inspection.ipynb`** - Quality check registered scans
 8. **`7__MRI_inspection__slice_range_selection.ipynb`** - Interactive slice range selection
 
 ### Phase 3: Data Augmentation & Training (Steps 9-10)
-9. **`8__matlab_blur_and_contrast.ipynb`** or **`8__matlab_execute.py`** - Apply blur/contrast augmentations
+9. **`8__matlab_blur_and_contrast.ipynb`** + **`8__matlab_execute.py`** - Apply blur/contrast augmentations
 10. **`8__train_using_isbi_test_so_have_train_GT_lesions_for_UQ__cleaned__out.ipynb`** - Train CNN model
     - **Output:** `best_model__baseline__20250503.keras`
 

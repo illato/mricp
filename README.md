@@ -1,12 +1,12 @@
-# 📊 Reliable Uncertainty Under Class Imbalance and Distribution Shift: Class-Conditional Conformal Prediction for Multiple Sclerosis Diagnosis  
-**Alexander S. Millar MS; Ramkiran Gouripeddi MBBS, MS, FAMIA; Julio C. Facelli PhD, FACMI**  
+# 📊 Reliable Uncertainty Under Class Imbalance and Distribution Shift: Class-Conditional Conformal Prediction of Multiple Sclerosis  
+**Alexander S. Millar MS; Cortnee Román MSN, FNP-BC; Ramkiran Gouripeddi MBBS, MS, FAMIA; Julio C. Facelli PhD, FACMI**  
 Department of Biomedical Informatics, University of Utah  
 Correspondence: u0740821@umail.utah.edu  
 
 ---
 
 ## Overview  
-The notebooks in this repository contain the full data‐analysis pipeline supporting "**Reliable Uncertainty Under Class Imbalance and Distribution Shift: Class-Conditional Conformal Prediction for Multiple Sclerosis Diagnosis**" (JHIR, 2026).  
+The notebooks in this repository contain the full data‐analysis pipeline supporting "**Reliable Uncertainty Under Class Imbalance and Distribution Shift: Class-Conditional Conformal Prediction of Multiple Sclerosis**" (JBI, 2026).  
 All code is reproducible and was executed in the Python environments specified in `0_setup.ipynb`.
 
 ---

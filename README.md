@@ -7,6 +7,7 @@ Correspondence: u0740821@umail.utah.edu
 
 ## Overview  
 The notebooks in this repository contain the full data‐analysis pipeline supporting "**Reliable Uncertainty Under Class Imbalance and Distribution Shift: Class-Conditional Conformal Prediction of Multiple Sclerosis**".  
+
 All code is reproducible and was executed in the Python environments specified in `0_setup.ipynb`.
 
 ---
